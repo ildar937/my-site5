@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    background: #0d0d0d;
+    color: #fff;
+    text-align: center;
+}
+
+/* Шапка */
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 40px;
+}
+
+.avatar {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 3px solid #0077ff;
+    box-shadow: 0 0 20px #0077ff;
+}
+
+/* Разделитель */
+hr {
+    width: 80%;
+    border: none;
+    height: 1px;
+    background: #0077ff;
+}
+
+/* Заголовки */
+h1 {
+    font-size: 28px;
+    margin: 0;
+}
+
+h2 {
+    font-size: 24px;
+    color: #00aaff;
+    margin-top: 40px;
+}
+
+/* Секция "Обо мне" */
+.about {
+    padding: 20px;
+    font-size: 18px;
+}
+
+/* Галерея */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    justify-items: center;
+    padding: 20px;
+}
+
+.gallery img {
+    width: 250px;
+    border: 2px solid #0077ff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px #0077ff;
+}
+
+/* Кнопки */
+.button, .telegram {
+    display: inline-block;
+    padding: 12px 24px;
+    margin: 20px;
+    background: #0077ff;
+    color: white;
+    text-decoration: none;
+    border-radius: 
